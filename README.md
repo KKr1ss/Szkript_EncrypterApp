@@ -6,7 +6,9 @@ A titkosításhoz egy, a program által generált kulcsot használunk, amelyet e
 A megvalósítás folyán a felhasználó folyamatosan kap visszajelzést, akár hibázott akár nem.
 
 Az általam használt modulok:
-Tkinter (+ messagebox és filedialog): ezek a modulok felelnek a megjelenésért
+Tkinter: ezek a modul felel a megjelenítésért.
+Tkinter.messagebox: ezzel a modullal lehetséges üzenet és hiba ablakokat megjeleníteni a felhasználónak.
+Tkinter.filedialog: ezzel a modullal lehet egy fájlkezelő ablakot megnyitni, és vele fájlt kiválasztani.
 cryptography.fernet: ez egy titkosítást lehetővé tevő modul egy key segítségével. Ezt építettem bele a függvényeimbe.
 
 Az általam elkészített függvények:
